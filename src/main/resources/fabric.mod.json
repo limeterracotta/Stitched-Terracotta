@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "terracotta",
+  "version": "${version}",
+
+  "name": "Stitched Terracotta",
+  "description": "Performance improvements and other miscellaneous features for LimeTerracotta's Fabric server.",
+  "authors": [
+    "bermudalocket"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/stitchedterracotta/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bermudalocket.stitchedterracotta.StitchedTerracotta"
+    ]
+  },
+  "mixins": [
+    "stitchedterracotta.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

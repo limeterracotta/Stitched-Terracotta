@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bermudalocket.stitchedterracotta.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "RecipeManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixinPriority": 99
+}
